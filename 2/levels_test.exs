@@ -14,7 +14,7 @@ defmodule LevelsTest do
   """
 
   test "safe rows" do
-    assert(safe(@input) == [[-1, -2, -2, -1], [2, 3, 1, 2]])
+    assert(safe(@input) == [[7, 6, 4, 2, 1], [1, 3, 6, 7, 9]])
   end
 
   test "contains delta over abs 3" do
